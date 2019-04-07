@@ -2,7 +2,7 @@
 Seoa Page is  Introduction page
 
 # d
-<img scr="https://avatars.githubusercontent.com/ttakkku" width="50" height="50"></img>
+ <img src="https://avatars.githubusercontent.com/ttakkku" width="350" title="hover text">
 ![http://github.com/ttakkku](https://avatars.githubusercontent.com/hayanggames) 
 ![http://github.com/ttakkku](https://avatars.githubusercontent.com/code325) 
 <br> [ttakkku](http://github.com/ttakkku) <br>
