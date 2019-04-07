@@ -10,6 +10,14 @@
   height: 70px;
 }
 
+.button {
+  text-align: center;
+  background-color: darkgray;
+  font-family: KOMACON;
+  height: 100px;
+  background: linear-gradient(gray 30%, white);
+}
+
 .contributor {
   text-align: center;
   color: white;
