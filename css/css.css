@@ -1,0 +1,49 @@
+* {
+
+  margin: 0;
+
+}
+
+.nav {
+
+  width: 100%;
+
+  background: skyblue;
+
+  text-align: center;
+
+  color: black;
+
+  height: 70px;
+
+}
+
+.button {
+
+  text-align: center;
+
+  background-color: gray;
+
+  font-family: KOMACON;
+
+  height: 23px;
+
+}
+
+.contributor {
+
+  text-align: center;
+
+  color: white;
+
+  font-size: 2em;
+
+  background-color: darkgray;
+
+  font-family: KOMACON;
+
+  height: 100px;
+
+  background: linear-gradient(gray 30%, white);
+
+}
