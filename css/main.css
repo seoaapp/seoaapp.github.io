@@ -68,3 +68,19 @@
   height: 100px;  
   
 }
+
+.blank {
+  
+  text-align: center;
+  
+  color: white;
+  
+  font-size: 2em;
+  
+  background-color: white;
+  
+  font-family: KOMACON;
+  
+  height: 23px;
+  
+}
