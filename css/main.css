@@ -52,3 +52,21 @@
   background: linear-gradient(gray 30%, white);
 
 }
+
+.contacts {
+  
+  text-align: center;
+  
+  color: black;
+  
+  font-size: 2em;
+  
+  background-color: yellow;
+  
+  font-family: KOMACON;
+  
+  height: 100px;
+  
+  background : linear-gradient(yellow 30%, white);
+  
+}
