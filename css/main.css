@@ -9,7 +9,7 @@ body
 {
  position: absolute;
  width: 300px;
- height: 12em;
+ height: 300px;
  left: 50%;
  top: 50%;
  margin-left: -150px;
@@ -29,8 +29,7 @@ body
 .text{
   margin-top: 40em;
   background: skyblue;
-  width:100%;
-  height:auto;
+  width:98%;
   text-align:left;
   padding: 10px;
   color:white;
