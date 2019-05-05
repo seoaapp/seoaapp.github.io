@@ -2,8 +2,10 @@ body
 {
  text-align: center;
  margin: 0 auto;
+ position: fixed; 
+ overflow-y: scroll;
+ width: 100%;
 }
-
 
 #box
 {
