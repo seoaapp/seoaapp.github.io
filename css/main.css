@@ -1,86 +1,40 @@
-* {
-
-  margin: 0;
-
+body
+{
+ text-align: center;
+ margin: 0 auto;
 }
 
-.nav {
 
-  width: 100%;
-
+#box
+{
+ position: absolute;
+ width: 500px;
+ height: 500px;
+ left: 50%;
+ top: 50%;
+ margin-left: -250px;
+ margin-top: -250px;
+ text-align : center;
+}
+#title{
+  font-size: 50px;
+  font-family: HangeulNuri-Bold;
+}
+.contacts{
+  margin-top: 30px;
+}
+#welcome{
+  padding:0;
+}
+.text{
+  margin-top: 500px;
   background: skyblue;
-
-  text-align: center;
-
-  color: black;
-
-  height: 70px;
-  
-  font-family : HangeulNuri-Bold;
-
+  width:100%;
+  height:auto;
+  text-align:left;
+  padding: 10px;
+  color:white;
 }
-.nav .info {
-  color: white;
-}
+#text #title{
 
-.button {
-
-  text-align: center;
-
-  background-color: gray;
-
-  font-family: KOMACON;
-
-  height: 23px;
-
-}
-
-.contributor {
-
-  text-align: center;
-
-  color: white;
-
-  font-size: 2em;
-
-  background-color: darkgray;
-
-  font-family: KOMACON;
-
-  height: 150px;
-
-  background: linear-gradient(gray 30%, white);
-
-}
-
-.contacts {
-  
-  text-align: center;
-  
-  color: black;
-  
-  font-size: 2em;
-  
-  background-color: white;
-  
-  font-family: KOMACON;
-  
-  height: 100px;  
-  
-}
-
-.blank {
-  
-  text-align: center;
-  
-  color: white;
-  
-  font-size: 1em;
-  
-  background-color: white;
-  
-  font-family: KOMACON;
-  
-  height: 23px;
-  
 }
