@@ -8,12 +8,12 @@ body
 #box
 {
  position: absolute;
- width: 500px;
- height: 500px;
+ width: 300px;
+ height: 10em;
  left: 50%;
  top: 50%;
- margin-left: -250px;
- margin-top: -250px;
+ margin-left: -150px;
+ margin-top: -150px;
  text-align : center;
 }
 #title{
@@ -27,7 +27,7 @@ body
   padding:0;
 }
 .text{
-  margin-top: 30em;
+  margin-top: 40em;
   background: skyblue;
   width:100%;
   height:auto;
@@ -35,3 +35,4 @@ body
   padding: 10px;
   color:white;
 }
+#text #t
