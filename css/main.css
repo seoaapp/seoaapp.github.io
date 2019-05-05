@@ -9,11 +9,11 @@ body
 {
  position: absolute;
  width: 300px;
- height: 10em;
+ height: 12em;
  left: 50%;
  top: 50%;
  margin-left: -150px;
- margin-top: -150px;
+ margin-top: -130px;
  text-align : center;
 }
 #title{
