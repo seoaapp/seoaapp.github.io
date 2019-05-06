@@ -11,20 +11,20 @@
 <script type="text/javascript" src="./js/404.js"></script>
    </head>
    <body>
-     <img src="./photo/0.jpg" name="randomimage" width=200 border="0" >
+     <img src="/photo/0.jpg" name="randomimage" width=200 border="0" >
      <script>
      var maximgno = 3; // 총 파일 개수
      var imgno;
     
      do imgno = Math.random().toString().charAt(2);
      while (imgno > maximgno || imgno < 1);
-     var imgfile="./photo"+imgno+".jpg";
+     var imgfile="/photo"+imgno+".jpg";
     
      document.randomimage.src=imgfile;
      </script>
      <div class="unknown">  
        <h2>앗, 잘못된 길에 드셨군요!</h2>
-       <a>괜찮아요, 곧 시공이 당신의 길을 안내해 줄거에요!</a>
+       <a>홈으로 리디렉션 될 동안 잠시 기다리시는 건 어떤가요?</a>
      </div>
    </body>
 </html>
