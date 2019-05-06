@@ -45,7 +45,9 @@ html, body{
   font-family: HangeulNuri-Bold;
 }
 .unknown{
+   margin-top: 40em;
   background: yellow;
   width: 100%;
   text-align: center;
   color: black;
+}
