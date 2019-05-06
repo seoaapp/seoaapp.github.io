@@ -8,12 +8,12 @@ body
 #box
 {
  position: absolute;
- width: 290px;
- height: 290px;
+ width: 22em;
+ height: 22em;
  left: 50%;
  top: 50%;
- margin-left: -145px;
- margin-top: -125px;
+ margin-left: -11em;
+ margin-top: -11em;
  text-align : center;
 }
 #title{
