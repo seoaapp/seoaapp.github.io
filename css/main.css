@@ -3,16 +3,17 @@
     display: none;
   }
 }
-@media screen and (min-height: 800px) and (orientation: portrait){
+@media screen and (min-width: 400px) and (orientation: portrait){
   #box {
     display: none;
   }
+  .text {
+    display: none;
+  }}
+@media not all and (min-height: 400px) and (orientation: portrait){
   .opps {
-    display: inline;
+    display: none;
   }
-}
-.opps {
-  display: none;
 }
 html, body{
  text-align: center;
