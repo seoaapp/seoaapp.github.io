@@ -8,25 +8,23 @@
      <meta property="og:title" content="Seoa Website"/>
      <meta property="og:site_name" content="Seoa">
      <meta name="theme-color" content="#ff09b0">
-<script type="text/javascript" src="./js/404.js"></script>
+<!--<script type="text/javascript" src="./js/404.js"></script>-->
    </head>
    <body>
-     <img src="/photo/1.jpg" name="randomimage" width=200 border="0" >
      <script>
      var maximgno = 3; // 총 파일 개수
      var imgno;
-    
+
      do imgno = Math.random().toString().charAt(2);
      while (imgno > maximgno || imgno < 1);
      var imgfile="./photo/"+imgno+".jpg";
-    
+
      document.randomimage.src=imgfile;
      document.write("<img src=" + imgfile + " name=" + image + " width=200 border="0">")
      </script>
-     <div class="unknown">  
-       <h2>앗, 잘못된 길에 드셨군요!</h2>
-       <a>홈으로 리디렉션 될 동안 잠시 기다리시는 건 어떤가요?</a>
-     </div>
+     <img src="https://cdn.discordapp.com/attachments/476974171708981268/574876161117519882/FFF.png" width="50" height="50">
+     <p>잘못된 페이지로 접속했습니다.</p>
+     <pre>주소창을 잘못 쳤을 수도 있습니다. 다시 확인해 보세요. <br> 수 초 뒤에 메인페이지로 이동합니다!</pre>
+     <img src="/photo/1.jpg" name="randomimage" width=200 border="0" >
    </body>
 </html>
-       
