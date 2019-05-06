@@ -38,6 +38,7 @@ html, body{
   text-align:left;
   padding: 10px;
   color:white;
+  word-break:break-all;
 }
 #mobile {
   margin-top: 30px;
