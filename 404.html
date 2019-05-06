@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html>
    <head>
-     <title>404 Sigong Joa</title>
+     <title>Seoa - 잘못된 페이지</title>
      <meta http-equiv="refresh" content="5; url=https://seoa.kro.kr" />
      <meta property="og:url" content="http://seoa.kro.kr/404"/>
      <meta property="og:description" content="Error; 404 Not Found"/>
@@ -11,7 +11,17 @@
 <script type="text/javascript" src="./js/404.js"></script>
    </head>
    <body>
-       <a href="https://heroesofthestorm.com/ko-kr/"><img src="https://media.discordapp.net/attachments/558296123794653208/574835241110208512/21144C4C595EC3BC24.jpg" title="무슨 짤이든 감수하겠다고 한 당신을 위한 시공"></a>
+     <img src="./photo/0.jpg" name="randomimage" width=200 border="0" >
+     <script>
+     var maximgno = 3; // 총 파일 개수
+     var imgno;
+    
+     do imgno = Math.random().toString().charAt(2);
+     while (imgno > maximgno || imgno < 1);
+     var imgfile="./photo"+imgno+".jpg";
+    
+     document.randomimage.src=imgfile;
+     </script>
      <div class="unknown">  
        <h2>앗, 잘못된 길에 드셨군요!</h2>
        <a>괜찮아요, 곧 시공이 당신의 길을 안내해 줄거에요!</a>
