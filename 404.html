@@ -18,7 +18,7 @@
     
      do imgno = Math.random().toString().charAt(2);
      while (imgno > maximgno || imgno < 1);
-     var imgfile="/photo"+imgno+".jpg";
+     var imgfile="/photo/"+imgno+".jpg";
     
      document.randomimage.src=imgfile;
      document.write("<img src="imgfile" name="image" width=200 border="0">")
