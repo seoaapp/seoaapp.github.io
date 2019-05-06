@@ -48,7 +48,9 @@ html, body{
   background: skyblue;
   width:100%;
   text-align:left;
-  padding: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color:white;
   word-break:keep-all;
 }
