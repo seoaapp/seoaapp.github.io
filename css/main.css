@@ -10,7 +10,7 @@
   .text {
     display: none;
   }}
-@media not all and (min-height: 400px) and (orientation: portrait){
+@media not all and (min-height: 600px) and (orientation: portrait){
   .opps {
     display: none;
   }
