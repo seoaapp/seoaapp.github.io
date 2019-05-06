@@ -8,11 +8,11 @@ body
 #box
 {
  position: absolute;
- width: 22em;
+ width: 20em;
  height: 22em;
  left: 50%;
  top: 50%;
- margin-left: -11em;
+ margin-left: -10em;
  margin-top: -11em;
  text-align : center;
 }
