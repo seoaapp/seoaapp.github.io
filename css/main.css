@@ -1,12 +1,12 @@
-body
-{
+html, body{
  text-align: center;
  margin: 0 auto;
  width: 100%;
+ max-width: 100%;
+ overflow-x: hidden;
 }
 
-#box
-{
+#box{
  position: absolute;
  width: 20em;
  height: 22em;
