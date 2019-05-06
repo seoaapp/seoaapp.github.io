@@ -1,3 +1,8 @@
+@media screen and (min-height: 800px) {
+  #mobile {
+    display: none;
+  }
+}
 html, body{
  text-align: center;
  margin: 0 auto;
@@ -29,16 +34,17 @@ html, body{
 .text{
   margin-top: 40em;
   background: skyblue;
-  width:97.5%;
+  width:100%;
   text-align:left;
   padding: 10px;
   color:white;
 }
-.unknown{
-  font-size: 35px;
+#mobile {
+  margin-top: 30px;
   font-family: HangeulNuri-Bold;
-  background: yellow;
-  width: 97.5%;
-  text-align: middle;
-  color: black;
 }
+.unknown{
+  background: yellow;
+  width: 100%;
+  text-align: center;
+  color: black;
