@@ -56,7 +56,9 @@ html, body{
   padding-bottom: 10px;
   color:white;
   word-break:keep-all;
-  font-size:0.8em;
+}
+#content {
+  font-size:0.6em;
 }
 #mobile {
   margin-top: 30px;
