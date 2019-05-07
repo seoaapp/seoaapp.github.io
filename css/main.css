@@ -10,7 +10,7 @@
   .text {
     display: none;
   }}
-@media not all and (min-width: 401px) and (orientation: portrait){
+@media not all and (min-width: 401px) and (orientation: portrait) or (device-width: {
   .opps {
     display: none;
   }
@@ -58,7 +58,7 @@ html, body{
   word-break:keep-all;
 }
 #content {
-  font-size:0.6em;
+  font-size:0.8em;
 }
 #mobile {
   margin-top: 30px;
