@@ -1,8 +1,7 @@
-@media screen and (min-height: 800px) {
+/*@media screen and (min-height: 800px) {
   #mobile {
     display: none;
   }
-/*일부 디바이스에서 레이아웃이 이상하게 정렬되는 문제 해결 ( pixel 2 해결완료, ipad, ipad pro 미해결)*/
 @media screen and (min-width: 400px) and (orientation: portrait) or not (device-widthL 411) and (device-heightL 731) {
   #box {
     display: none;
@@ -15,6 +14,7 @@
     display: none;
   }
 }
+*/
 .opps {
   font-size:1.1em;
 }
