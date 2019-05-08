@@ -8,3 +8,4 @@ Seoa Page는 Seoa Project의 소개 페이지입니다.
 | <img src="https://avatars.githubusercontent.com/ttakkku" width="100" title="ttakkku"> |<img src="https://avatars.githubusercontent.com/code325" width="100" title="NEOLINE"> |
 | ------------------------------------------------------------  | ------------------------------------------------------------ |
 | [ttakkku](https://github.com/ttakkku)                       | [NEOLINE](https://github.com/code325)                      |
+| [LLOOOOTT](https://github.com/LLOOOOTT)                       |
