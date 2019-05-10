@@ -31,7 +31,7 @@ html, body{
 #box{
  position: absolute;
  width: 20em;
- height: 22em;
+ height: auto;
  left: 50%;
  top: 50%;
  margin-left: -10em;
