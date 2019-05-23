@@ -10,3 +10,5 @@ Seoa Page는 Seoa Project의 소개 페이지입니다.
 | [ttakkku](https://github.com/ttakkku)                       | [NEOLINE](https://github.com/code325)                      |
 | [LLOOOOTT](https://github.com/LLOOOOTT)                       |
 -->
+
+추가 : WhiteClient(바안월 이라는 한 인간?)라는 사람도 있어요 (사진이 없더군요 그래서 직접 추가했습니다)
