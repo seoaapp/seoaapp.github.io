@@ -62,7 +62,7 @@ header {
 main {
   background: skyblue;
   text-align: center;
-  padding: 10px;
+  padding: 20px 50px;
   color: white;
   word-break: keep-all;
 }
@@ -113,6 +113,8 @@ nav li a:hover {
 
 main section.project-item {
   width: auto;
+  max-width: 980px;
+  margin: auto;
   border: 1px solid black;
   padding: 10px;
   overflow: auto;
@@ -124,4 +126,9 @@ main section.project-item * {
 
 main section.project-item .project-text, main section.project-item img {
   float: left;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: HangeulNuri-Bold;
 }
