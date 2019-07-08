@@ -47,6 +47,8 @@ header {
 #title {
   font-size: 50px;
   font-family: HangeulNuri-Bold;
+  margin: 0;
+  padding: 0.83em 0;
 }
 
 .contacts {
@@ -57,14 +59,10 @@ header {
   padding: 0;
 }
 
-.text {
-  /*margin-top: 40em;*/
+main {
   background: skyblue;
-  width: 100%;
   text-align: center;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   color: white;
   word-break: keep-all;
 }
@@ -111,4 +109,19 @@ nav li a:hover {
   background-color: white;
   color: black;
   transition: 0.5s;
+}
+
+main section.project-item {
+  width: auto;
+  border: 1px solid black;
+  padding: 10px;
+  overflow: auto;
+}
+main section.project-item * {
+  margin: 10px;
+  text-align: left;
+}
+
+main section.project-item .project-text, main section.project-item img {
+  float: left;
 }
