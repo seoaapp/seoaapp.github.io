@@ -50,7 +50,6 @@ html, body{
 .text{
   margin-top: 40em;
   background: skyblue;
-  width:100%;
   text-align:center;
   padding-left: 10px;
   padding-top: 10px;
@@ -68,7 +67,6 @@ html, body{
 .unknown{
    margin-top: 40em;
   background: yellow;
-  width: 100%;
   text-align: center;
   color: black;
 }
