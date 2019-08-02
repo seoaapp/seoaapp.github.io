@@ -16,18 +16,21 @@
   }
 }
 */
+
 .opps {
-  font-size:1.1em;
-}
-html, body{
- text-align: center;
- margin: 0 auto;
- width: 100%;
- max-width: 100%;
- overflow-x: hidden;
+  font-size: 1.1em;
 }
 
-#box{
+html, body {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  /*
  position: absolute;
  width: 20em;
  height: auto;
@@ -35,38 +38,96 @@ html, body{
  top: 50%;
  margin-left: -10em;
  margin-top: -11em;
- text-align : center;
+ text-align : center; */
+  width: 100%;
+  height: auto;
+  margin: 5em 0;
 }
-#title{
+
+#title {
   font-size: 50px;
   font-family: HangeulNuri-Bold;
+  margin: 0;
+  padding: 0.83em 0;
 }
-.contacts{
+
+.contacts {
   margin-top: 30px;
 }
-#welcome{
-  padding:0;
+
+#welcome {
+  padding: 0;
 }
-.text{
-  margin-top: 40em;
+
+main {
   background: skyblue;
-  text-align:center;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color:white;
-  word-break:keep-all;
+  text-align: center;
+  padding: 20px 50px;
+  color: white;
+  word-break: keep-all;
 }
+
 #content {
-  font-size:0.8em;
+  font-size: 0.8em;
 }
+
 #mobile {
   margin-top: 30px;
   font-family: HangeulNuri-Bold;
 }
-.unknown{
-   margin-top: 40em;
+
+.unknown {
+  margin-top: 40em;
   background: yellow;
   text-align: center;
   color: black;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+main section.project-item {
+  width: auto;
+  max-width: 980px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+  overflow: auto;
+}
+main section.project-item * {
+  margin: 10px;
+  text-align: left;
+}
+
+main section.project-item .project-text, main section.project-item img {
+  float: left;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: HangeulNuri-Bold;
 }
