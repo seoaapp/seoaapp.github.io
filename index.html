@@ -8,70 +8,137 @@
   <meta property="og:url" content="http://seoa.kro.kr" />
   <meta property="og:description" content="Welcome to Seoa Website" />
   <meta property="og:title" content="Seoa Website" />
-  <meta property="og:site_name" content="Seoa">
-  <meta name="theme-color" content="#ff09b0">
-  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Seoa" />
+  <meta name="theme-color" content="#ff09b0" />
+  <meta property="og:type" content="website" />
   <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta property="twitter:site" content="@Seoa">
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta property="twitter:site" content="@Seoa" />
   <!-- title -->
   <title>Seoa-Page</title>
   <!--  <link rel="shortcut icon" type="image/x-icon"
           href=""> -->
   <!-- javascript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/index.js"></script>
   <!-- stylesheet-->
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/font.css">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/font.css" />
+  <link rel="stylesheet" href="./css/timeline.css">
+  <link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body>
-  <header>
-    <div id="welcome">Welcome to the Project. Seoa</div>
-    <div id="title">Seoa-Page</div>
-    <div class="contacts">
-      <a href="https://github.com/SeoaApp"><img
-          src="https://media.discordapp.net/attachments/567729674029891604/573038444381601812/GitHub-Mark-120px-plus.png"
-          width="70px" title="GitHub"></a>
-      <a href="https://discord.gg/QJfeKYr"><img src="https://media.discordapp.net/attachments/559205319872479233/574465132894093327/discord.png" width="70px" title="Discord"></a>
-    </div>
-  </header>
   <nav>
+    <div class="space"></div>
     <li>
-      <a>Contributors</a>
+      <a href="#contributors">Contributors</a>
     </li>
+    <div class="space"></div>
+    <div class="space"></div>
     <li>
-      <a href="./project.html">Projects</a>
+      <a href="#projects">Projects</a>
     </li>
+    <div class="space"></div>
+    <div class="space"></div>
     <li>
-      <a href="./timeline.html">Timeline</a>
+      <a href="#timeline">Timeline</a>
     </li>
+    <div class="space"></div>
   </nav>
-  <main>
-    <h2 id="title">Contributors</h2>
-    <p>사진 위에 포인터를 올려 이름을 확인할 수 있습니다.</p>
-    <p>사진을 클릭해 해당 유저의 GitHub 프로필로 이동할 수 있습니다.</p>
-    <a href="https://github.com/ttakkku"><img src="https://avatars.githubusercontent.com/ttakkku" width="100" title="ttakkku | Leader"></a>
-    <a href="https://github.com/PMHStudio"><img src="https://avatars.githubusercontent.com/PMHStudio" width="100" title="PMH | Bot & Web Dev."></a>
-    <a href="https://github.com/comjin04"><img src="https://avatars.githubusercontent.com/comjun04" width="100" title="comjun04 | Bot & Web Dev."></a>
-    <a href="https://github.com/LLOOOOTT"><img src="https://avatars.githubusercontent.com/LLOOOOTT" width="100" title="LLOOOOTT | Translator & Web Dev."></a>
-    <a href="https://github.com/seomingyu11"><img src="https://avatars.githubusercontent.com/seomingyu11" width="100" title="Teaddy | Web Dev. & Communicator"></a>
-    <a href="https://github.com/Zero-Brazil734"><img src="https://avatars.githubusercontent.com/Zero-Brazil734" width="100" title="제로 | Translator"></a>
-    <a href="https://github.com/COIN-KR"><img src="https://avatars.githubusercontent.com/COIN-KR" width="100" title="COiN"></a>
-    <a href="https://github.com/DPS0340"><img src="https://avatars.githubusercontent.com/DPS0340" width="100" title="DPS0340"></a>
-    <a href="https://github.com/WhiteSnowFlakes"><img src="https://avatars.githubusercontent.com/WhiteSnowFlakes" width="100" title="WSF"></a>
-    <a href="https://github.com/Helloyunho"><img src="https://avatars.githubusercontent.com/Helloyunho" width="100" title="Helloyunho | Bot Dev."></a>
-    <a href="https://github.com/noamboy2006"><img src="https://avatars.githubusercontent.com/noamboy2006" width="100" title="dissolve | Program Dev."></a>
-    <a href="https://github.com/Naesung"><img src="https://avatars.githubusercontent.com/Naesung" width="100" title="Naesung"></a>
-    
+  <div>
+    <header>
+      <div>
+        <div id="welcome">Welcome to the Project. Seoa</div>
+        <div id="title">Seoa-Page</div>
+        <div class="contacts">
+          <a href="https://github.com/SeoaApp"><img
+              src="https://media.discordapp.net/attachments/567729674029891604/573038444381601812/GitHub-Mark-120px-plus.png"
+              width="70px" title="GitHub" /></a>
 
-    <!--
-      <img src="https://avatars.githubusercontent.com/githubnickname" width="100" title="nickname">
-    <p>Description</p>
-    -->
-    
-  </main>
+          <a href="https://discord.gg/QJfeKYr"><img
+              src="https://media.discordapp.net/attachments/559205319872479233/574465132894093327/discord.png"
+              width="70px" title="Discord" /></a>
+        </div>
+      </div>
+    </header>
+    <main id="contributors">
+      <div>
+        <h2 id="title-no-top-padding">Contributors</h2>
+        <p>사진 위에 포인터를 올려 이름을 확인할 수 있습니다.</p>
+        <p>사진을 클릭해 해당 유저의 GitHub 프로필로 이동할 수 있습니다.</p>
+        <a href="https://github.com/ttakkku"><img src="https://avatars.githubusercontent.com/ttakkku" width="100"
+            title="ttakkku | Leader" /></a>
+
+        <a href="https://github.com/PMHStudio"><img src="https://avatars.githubusercontent.com/PMHStudio" width="100"
+            title="PMH | Bot & Web Dev." /></a>
+
+        <a href="https://github.com/comjin04"><img src="https://avatars.githubusercontent.com/comjun04" width="100"
+            title="comjun04 | Bot & Web Dev." /></a>
+
+        <a href="https://github.com/LLOOOOTT"><img src="https://avatars.githubusercontent.com/LLOOOOTT" width="100"
+            title="LLOOOOTT | Translator & Web Dev." /></a>
+
+        <a href="https://github.com/seomingyu11"><img src="https://avatars.githubusercontent.com/seomingyu11"
+            width="100" title="Teaddy | Web Dev. & Communicator" /></a>
+
+        <a href="https://github.com/Zero-Brazil734"><img src="https://avatars.githubusercontent.com/Zero-Brazil734"
+            width="100" title="제로 | Translator" /></a>
+
+        <a href="https://github.com/COIN-KR"><img src="https://avatars.githubusercontent.com/COIN-KR" width="100"
+            title="COiN" /></a>
+
+        <a href="https://github.com/DPS0340"><img src="https://avatars.githubusercontent.com/DPS0340" width="100"
+            title="DPS0340" /></a>
+
+        <a href="https://github.com/WhiteSnowFlakes"><img src="https://avatars.githubusercontent.com/WhiteSnowFlakes"
+            width="100" title="WSF" /></a>
+
+        <a href="https://github.com/Helloyunho"><img src="https://avatars.githubusercontent.com/Helloyunho" width="100"
+            title="Helloyunho | Bot Dev." /></a>
+
+        <a href="https://github.com/noamboy2006"><img src="https://avatars.githubusercontent.com/noamboy2006"
+            width="100" title="dissolve | Program Dev." /></a>
+
+        <a href="https://github.com/Naesung"><img src="https://avatars.githubusercontent.com/Naesung" width="100"
+            title="Naesung" /></a>
+      </div>
+      <!--
+        <img src="https://avatars.githubusercontent.com/githubnickname" width="100" title="nickname">
+      <p>Description</p>
+      -->
+    </main>
+    <main id="projects">
+      <div>
+        <h2 id="title">Projects</h2>
+        <section class="project-item">
+          <img
+            src="https://cdn.discordapp.com/avatars/584692085614182440/e4e640c9e4a090b431d1022627361004.png?size=128">
+          <div class="project-text">
+            <h3>SeoaBot</h3>
+            <p>The Discord Bot is name Seoa</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <main id="timeline">
+      <h2 id="title">Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-container timeline-left">
+          <div class="timeline-content">
+            <h3>테스트 타임라인 제목</h3>
+            <p>테스트 타임라인 내용</p>
+          </div>
+        </div>
+        <div class="timeline-container timeline-right">
+          <div class="timeline-content">
+            <h3>테스트 타임라인 제목 2</h3>
+            <p>테스트 타임라인 내용 2</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
   <!--    <div class="opps">
       <img src="https://cdn.discordapp.com/attachments/476974171708981268/574876161117519882/FFF.png" width="50" height="50">
       <p>지원되지 않는 해상도로 접속했습니다.</p>
