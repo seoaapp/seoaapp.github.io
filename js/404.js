@@ -1,2 +1,8 @@
-alert("저런 이상한 길로 가시군요!")
-alert("이 다음에 무슨 짤이 나와도 감수하실 수 있으시겠습니까?")
+function count(){
+  let spn=document.getElementById('n')
+  let i=3
+  setInterval(()=>{
+    i--
+    spn.innerHTML=i
+  },1000)
+}
